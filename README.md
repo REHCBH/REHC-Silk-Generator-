@@ -1,4 +1,4 @@
-# REHC Racing Colours Designer
+# REHC Silk Designer
 
 A single-page tool for owners registering new racing colours with the Rashid Equestrian & Horseracing Club.
 
