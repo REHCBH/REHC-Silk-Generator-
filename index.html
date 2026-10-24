@@ -185,7 +185,7 @@ const BODY = [
   { id: 'hoops', name: 'Hoops', d: c => [256, 368, 480].map(y => R(50, y, 330, 56, c)).join('') },
   { id: 'hoop', name: 'Hoop', sub: 'p.79, first', d: c => R(50, 320, 330, 52, c) },
   { id: 'stripes', name: 'Stripes', d: c => { let s = ''; for (let k = -3; k <= 2; k++) s += R(X0 + 14 + 52 * k, 150, 24, 460, c); return s; } },
-  { id: 'epaulettes', name: 'Epaulettes', d: c => { const l = [[86, 211], [150, 182], [163, 207], [99, 238]]; return P(l, c) + P(mirror(l), c); } },
+  { id: 'epaulettes', name: 'Epaulettes', d: c => { const l = [[78, 200], [136, 186], [159, 253.6], [143.4, 290], [104.4, 274.4]]; return P(l, c) + P(mirror(l), c); } },
   { id: 'seems', name: 'Seems', seam: true },
   { id: 'braces', name: 'Braces', d: c => R(X0 - 86, 190, 24, 420, c) + R(X0 + 62, 190, 24, 420, c) },
   { id: 'stripe', name: 'Stripe', d: c => R(X0 - 26, 150, 52, 460, c) },
